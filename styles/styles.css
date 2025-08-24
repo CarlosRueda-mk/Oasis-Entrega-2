@@ -19,7 +19,7 @@ body {
 .parent {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     gap: 8px;
 }
     
@@ -56,7 +56,7 @@ body {
 
 .div3 {
     grid-column: span 2 / span 2;
-    grid-row: span 4 / span 4;
+    grid-row: span 3 / span 3;
     grid-row-start: 5;
     justify-self: center;
 }
@@ -67,7 +67,7 @@ body {
 
 .div4 {
     grid-column: span 2 / span 2;
-    grid-row: span 4 / span 4;
+    grid-row: span 3 / span 3;
     grid-column-start: 3;
     grid-row-start: 5;
     justify-self: center;
@@ -78,7 +78,7 @@ body {
 }
 .div5 {
     grid-column: span 2 / span 2;
-    grid-row: span 4 / span 4;
+    grid-row: span 3 / span 3;
     grid-column-start: 5;
     grid-row-start: 5;
     justify-self: center;
@@ -93,7 +93,7 @@ body {
     grid-column: span 4 / span 4;
     grid-row: span 3 / span 3;
     grid-column-start: 2;
-    grid-row-start: 9;
+    grid-row-start: 8;
     justify-self: center;
 }
 
@@ -106,7 +106,7 @@ body {
 .button-main {
     display: flex;
     justify-content: center;
-    margin: 10px 0px 0px 0px;
+    margin: 2%;
 }
 
 .button-custom {
@@ -130,9 +130,6 @@ body {
     color: #000000;
 }
 /* main-content-historia */
-.main-content-historia{
-    margin: 10px 0px 10px 0px;
-}
 .parent-historia {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -142,7 +139,7 @@ body {
     
 .div1-historia {
     grid-column: span 5 / span 5;
-    margin: 80px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
 }
 
 .div1-historia h1 {
@@ -159,15 +156,24 @@ body {
 
 .div2-historia{
     grid-column: span 5 / span 5;
-    grid-row: span 5 / span 5;
+    grid-row: span 2 / span 2;
     grid-row-start: 2;
-    padding: 120px;
+    padding:120px;
+    background-color: #e4ddd7;
+    border-radius: 2%;
+    margin-bottom: 20px;
 }
 
 .div2-historia p {
     text-align: justify;
     font-size: 18px;
     color: #000000;
+}
+.div3-historia {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 5;
 }
 
 .imagen-historia {
@@ -178,6 +184,58 @@ body {
     height: 640px;
     border-radius: 5%;
 }
+/* main-content-integrantes */
+
+    h1 {
+      font-size: 60px;
+      text-align: center;
+      color: #000000;
+      margin: 100px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card-integrantes {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card-integrantes:hover {
+      transform: scale(1.05);
+    }
+
+    .card-integrantes img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .card-content p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
 
 /* footer */
 
