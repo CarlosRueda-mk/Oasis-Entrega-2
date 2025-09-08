@@ -1,0 +1,50 @@
+.integrantes-h1 {
+  font-size: 120px;
+  text-align: center;
+  color: #000000;
+  margin-top: 80px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+
+  .card-integrantes {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+
+  .card-content {
+    padding: 15px;
+
+    h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+  }
+}

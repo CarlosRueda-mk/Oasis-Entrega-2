@@ -1,0 +1,34 @@
+@mixin flex($justify, $direction) {
+  display: flex;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+// button
+@mixin button() {
+  .button-main {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+
+    .button-custom {
+      background-color: #fb8500;
+      color: #000;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #e4ddd7;
+        transform: scale(1.05);
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+}

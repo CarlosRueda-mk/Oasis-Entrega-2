@@ -1,0 +1,56 @@
+@use "./variables" as *;
+
+.h1-historia {
+  text-align: center;
+  font-size: 220px;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.p-historia {
+  text-align: center;
+  font-size: 50px;
+  color: #000000;
+}
+
+.parent-historia {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+
+  .div1-historia {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    background-color: white;
+    border-radius: 2%;
+    padding: 35px;
+
+    p {
+      text-align: justify;
+      font-size: 20px;
+      color: #000000;
+    }
+  }
+
+  .div2-historia {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 4;
+
+    .imagen-historia {
+      justify-self: center;
+      margin: 20px;
+
+      img {
+        height: 640px;
+        border-radius: 4%;
+        border: 4px solid white;
+      }
+    }
+
+    @include button();
+  }
+}

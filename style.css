@@ -1,0 +1,450 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.h1-inicio {
+  font-size: 200px;
+  text-align: center;
+  color: #000000;
+}
+
+.p-inicio {
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  margin: 20px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 8px;
+}
+.parent .div1 {
+  grid-column: span 3/span 3;
+  grid-row: span 2/span 2;
+  grid-column-start: 2;
+  justify-self: center;
+}
+.parent .div1 img {
+  height: 540px;
+  border-radius: 4%;
+  border: 4px solid white;
+}
+.parent .div1 .button-main {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.parent .div1 .button-main .button-custom {
+  background-color: #fb8500;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.parent .div1 .button-main .button-custom:hover {
+  background-color: #e4ddd7;
+  transform: scale(1.05);
+}
+.parent .div1 .button-main .button-custom a {
+  text-decoration: none;
+  color: #000;
+}
+.parent .div2 {
+  grid-row: span 2/span 2;
+  grid-column-start: 2;
+  grid-row-start: 3;
+  justify-self: center;
+}
+.parent .div2 img {
+  height: 420px;
+  border-radius: 4%;
+  border: 4px solid white;
+}
+.parent .div3 {
+  grid-row: span 2/span 2;
+  grid-column-start: 3;
+  grid-row-start: 3;
+  justify-self: center;
+}
+.parent .div3 img {
+  height: 420px;
+  border-radius: 4%;
+  border: 4px solid white;
+}
+.parent .div3 .button-main {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.parent .div3 .button-main .button-custom {
+  background-color: #fb8500;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.parent .div3 .button-main .button-custom:hover {
+  background-color: #e4ddd7;
+  transform: scale(1.05);
+}
+.parent .div3 .button-main .button-custom a {
+  text-decoration: none;
+  color: #000;
+}
+.parent .div4 {
+  grid-row: span 2/span 2;
+  grid-column-start: 4;
+  grid-row-start: 3;
+  justify-self: center;
+}
+.parent .div4 img {
+  height: 420px;
+  border-radius: 4%;
+  border: 4px solid white;
+}
+.parent .div5 {
+  grid-column: span 3/span 3;
+  grid-row: span 2/span 2;
+  grid-column-start: 2;
+  grid-row-start: 5;
+  justify-self: center;
+}
+.parent .div5 img {
+  height: 640px;
+  border-radius: 4%;
+  border: 4px solid white;
+}
+.parent .div5 .button-main {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.parent .div5 .button-main .button-custom {
+  background-color: #fb8500;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.parent .div5 .button-main .button-custom:hover {
+  background-color: #e4ddd7;
+  transform: scale(1.05);
+}
+.parent .div5 .button-main .button-custom a {
+  text-decoration: none;
+  color: #000;
+}
+
+.h1-historia {
+  text-align: center;
+  font-size: 220px;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.p-historia {
+  text-align: center;
+  font-size: 50px;
+  color: #000000;
+}
+
+.parent-historia {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+.parent-historia .div1-historia {
+  grid-column: span 3/span 3;
+  grid-row: span 3/span 3;
+  grid-column-start: 2;
+  background-color: white;
+  border-radius: 2%;
+  padding: 35px;
+}
+.parent-historia .div1-historia p {
+  text-align: justify;
+  font-size: 20px;
+  color: #000000;
+}
+.parent-historia .div2-historia {
+  grid-column: span 3/span 3;
+  grid-row: span 2/span 2;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+.parent-historia .div2-historia .imagen-historia {
+  justify-self: center;
+  margin: 20px;
+}
+.parent-historia .div2-historia .imagen-historia img {
+  height: 640px;
+  border-radius: 4%;
+  border: 4px solid white;
+}
+.parent-historia .div2-historia .button-main {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.parent-historia .div2-historia .button-main .button-custom {
+  background-color: #fb8500;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.parent-historia .div2-historia .button-main .button-custom:hover {
+  background-color: #e4ddd7;
+  transform: scale(1.05);
+}
+.parent-historia .div2-historia .button-main .button-custom a {
+  text-decoration: none;
+  color: #000;
+}
+
+.integrantes-h1 {
+  font-size: 120px;
+  text-align: center;
+  color: #000000;
+  margin-top: 80px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.grid-container .card-integrantes {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.grid-container .card-integrantes:hover {
+  transform: scale(1.05);
+}
+.grid-container .card-integrantes img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.grid-container .card-content {
+  padding: 15px;
+}
+.grid-container .card-content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+.grid-container .card-content p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  .h1-inicio {
+    font-size: 80px;
+    text-align: center;
+  }
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    max-width: 600px;
+  }
+  .parent .div1,
+  .parent .div2,
+  .parent .div3,
+  .parent .div4,
+  .parent .div5 {
+    grid-column: 1/-1;
+    grid-row: auto;
+    grid-column-start: auto;
+    grid-row-start: auto;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  .parent .div1 img,
+  .parent .div2 img,
+  .parent .div3 img,
+  .parent .div4 img,
+  .parent .div5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .h1-inicio {
+    font-size: 74px;
+    text-align: center;
+  }
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .parent .div1,
+  .parent .div3,
+  .parent .div5 {
+    grid-column: span 2;
+  }
+  .parent .div2,
+  .parent .div4 {
+    grid-column: span 1;
+    display: none;
+  }
+  .parent img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .parent .button-main {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .parent .button-custom {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .div2-historia .imagen-historia img {
+    width: 100%;
+    height: auto;
+    border-radius: 4%;
+  }
+}
+@media (max-width: 600px) {
+  .h1-historia {
+    font-size: 48px;
+    text-align: center;
+  }
+  .p-historia {
+    font-size: 18px;
+    text-align: center;
+  }
+  .parent-historia {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 16px;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-items: center;
+  }
+  .parent-historia .div1-historia {
+    grid-column: span 1;
+    grid-row: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .parent-historia .div1-historia p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .parent-historia .div2-historia {
+    grid-column: span 1;
+    grid-row: auto;
+    grid-column-start: auto;
+    grid-row-start: auto;
+  }
+  .parent-historia .div2-historia .imagen-historia img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+  }
+}
+@media (max-width: 600px) {
+  .integrantes-h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 90px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .integrantes-h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 120px;
+  }
+}
+.card-body .button-main {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.card-body .button-main .button-custom {
+  background-color: #fb8500;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card-body .button-main .button-custom:hover {
+  background-color: #e4ddd7;
+  transform: scale(1.05);
+}
+.card-body .button-main .button-custom a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-color: #1e3e62;
+}
+
+.navbar-custom {
+  background-color: #fb8500;
+}
+
+.footer-custom {
+  background-color: #000000;
+}
+.footer-custom .p-footer-custom {
+  color: white;
+}
+.footer-custom .card-custom {
+  max-width: 880px;
+}
+
+/*# sourceMappingURL=style.css.map */

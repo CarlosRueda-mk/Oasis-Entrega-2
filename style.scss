@@ -1,0 +1,29 @@
+// archivos externos con scss
+
+@use "./sass/index";
+@use "./sass/variables";
+@use "./sass/historia";
+@use "./sass/integrantes";
+@use "./sass/mediaq";
+@use "./sass/discografia";
+
+// general styles
+body {
+  background-color: #1e3e62;
+}
+
+.navbar-custom {
+  background-color: #fb8500;
+}
+
+.footer-custom {
+  background-color: #000000;
+
+  .p-footer-custom {
+    color: white;
+  }
+
+  .card-custom {
+    max-width: 880px;
+  }
+}
